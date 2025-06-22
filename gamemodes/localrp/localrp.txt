@@ -1,0 +1,48 @@
+"localrp"
+{
+	"base"		"base"
+	"title"		"LocalRP"
+	"category"	"rp"
+	"menusystem"	"1"
+	"workshopid"	"3270155743"
+
+	"settings"
+	{
+		1
+		{
+			"name"		"sv_lrp_respawn_time"
+			"text"		"#lrp_gm.options.respawn_time"
+			"help"		"Set respawn time"
+			"type"		"Numeric"
+			"default"	"7"
+		}
+
+		
+		2
+		{
+			"name"		"sv_lrp_breaking_leg"
+			"text"		"#lrp_gm.options.breaking_leg"
+			"help"		"Enable/disable breaking leg"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+
+		3
+		{
+			"name"		"sv_lrp_drowning"
+			"text"		"#lrp_gm.options.drowning"
+			"help"		"Enable / disable water drowning damage"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+
+		4
+		{
+			"name"		"sbox_noclip"
+			"text"		"#lrp_gm.options.noclip"
+			"help"		"Allow noclip for all players"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+	}
+}
